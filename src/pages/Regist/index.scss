@@ -1,0 +1,35 @@
+.backimg {
+  min-height: 100vh;
+  max-height: 90%;
+  background-image: url(../../photo/login-bg-3.jpg);
+  background-position: 50%;
+  background-size: cover;
+
+  .filters {
+    min-height: 100vh;
+    max-height: 90%;
+    background-color: #00000054;
+  }
+}
+.signup {
+  height: 620px;
+}
+input {
+  border: 1px solid #dae1e3;
+  padding: 8px;
+  outline: none;
+}
+input:focus {
+  border: 2px solid #b3d2ff;
+  box-shadow: 1px 1px 1px #b3d2ff;
+}
+input::placeholder {
+  color: #dae1e3;
+}
+button {
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  color: white;
+}
+label{
+    font-weight: 600;
+}

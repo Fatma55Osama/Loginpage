@@ -9,7 +9,8 @@ import './index.scss'
 import Swal from 'sweetalert2'
 import axios from 'axios'
 import { use } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate ,Link } from 'react-router-dom'
+
 
 
 export default function Loginpage() {
@@ -87,7 +88,7 @@ export default function Loginpage() {
                             <div className='div3  col-12 col-md-11  '>
                                 <div className='div4 mt-4 d-flex flex-column  align-items-center align-content-around'>
                                     <h1 className='mb-3'>Sign In</h1>
-                                    <p>New to Oxyy? <a href="">Create an Acount</a></p>
+                                    <p>New to Oxyy? <Link to="/register" >Create an Acount</Link></p>
                                 </div>
                                 <form onSubmit={handelSubmite} className='mt-2 d-flex flex-column justify-content-center gap-3 '>
 
